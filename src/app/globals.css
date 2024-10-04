@@ -1,0 +1,198 @@
+/* Estilos generales */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  background-color: #f0f2f5; /* Color de fondo general */
+}
+
+.registro-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+header {
+  background-color: #260aa5de; /* Azul oscuro para el encabezado */
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 24px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+
+main {
+  flex: 1; /* Para que el contenido se mantenga centrado */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contenedor del formulario */
+.registro-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  text-align: center;
+  width: 350px;
+}
+
+/* Estilo del título dentro del formulario */
+h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #333;
+}
+
+/* Campos del formulario */
+.registro-form input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* Botón de registro */
+.registro-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.registro-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo del enlace para iniciar sesión */
+p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/* login*/
+/* Estilo del formulario de inicio de sesión */
+.login-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+.login-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 350px;
+  margin: auto;
+}
+
+.login-form input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #218838;
+}
+/* CifradoPage.module.css */
+
+/* Estilo general para la página de cifrado */
+.cifrado-page {
+  padding: 20px;
+  background-color: #f8f9fa; /* Color de fondo claro */
+}
+
+/* Estilo para los títulos */
+h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #343a40; /* Color oscuro para el título */
+}
+
+h3 {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.5rem;
+  color: #007bff; /* Color azul para los subtítulos */
+  margin-bottom: 10px;
+}
+
+/* Espaciado para los botones */
+button {
+  margin-top: 10px;
+}
+
+/* Estilo para los grupos de formularios */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Estilo para las tarjetas */
+.card {
+  border: 1px solid #dee2e6; /* Color de borde */
+  border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilo para los textos de lectura */
+textarea {
+  resize: none; /* Evitar el redimensionamiento */
+}
+
+/* Ajustes de espaciado en el contenedor de columnas */
+.row {
+  margin-bottom: 20px; /* Espacio entre filas */
+}
+
+/* Estilo de éxito y error en el mensaje */
+.success-message {
+  color: green;
+}
+
+.error-message {
+  color: red;
+}
